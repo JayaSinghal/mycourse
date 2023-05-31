@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        body{
+            background-color: aqua;
+            text-transform: capitalize;
+        }
+        form{
+            background-color: blueviolet;
+            padding: 50px;
+            margin: 30px 100px;
+            width: 500px;
+        }
+        /* input{
+            height: 40px;
+            width: 200px;
+            border-radius: 10px;
+            /* float: right; */
+            margin-bottom: 20px;
+        } */
+        .button{
+            height: 40px;
+            width: 100px;
+            
+        }
+        .button1{
+            height: 40px;
+            background-color: black;
+            color: aqua;
+            text-transform: uppercase;
+            font-size: large;
+            border: 5px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form>
+        <label for="name">Full Name :</label>
+        <!-- <input type="text" placeholder="Enter your name" id="name"  value="Jaya" readonly> -->
+        <input type="text" placeholder="Enter your name" id="name"  required>
+        <br><br>
+        <label for="password">Password :</label>
+        <input type="password" placeholder="Enter your password" id="password">
+        <br><br>
+        <label for="mail">Mail :</label>
+        <input type="email" placeholder="Enter Your Email" id="mail">
+        <br><br>
+        <label for="color">Color :</label>
+        <input type="color" id="color">
+        <br><br>
+        <label for="dob">Enter Your DOB: </label>
+        <input type="date" id="dob " max="2002-05-23" min="2000-05-23">
+        <br><br>
+        <label for="dt">Enter Your Datetime: </label>
+        <input type="datetime-local" id="dt">
+        <br><br>
+        <label for="file">Upload your documents: </label>
+        <input type="file" id="file" multiple>
+        <input type="hidden" value="21828" id="studentid">
+        <br><br>
+        
+        <label for="mon">Enter Your Month: </label>
+        <input type="month" id="mon">
+        <br><br>
+        <label for="num">Enter Your Number: </label>
+        <input type="number" id="num" max="1000" min="600">
+        <br><br>
+       
+        <label for="tm">Enter the time</label>
+        <input type="time" id="tm">
+        <br><br>
+        <label for="url">Enter Your Url :</label>
+        <input type="url" id="url">
+        <br><br>
+        <p>Select the gender</p>
+        <input type="radio" id="mail" name="gender"><label for="mail">Male</label>
+        <br>
+        <input type="radio" id="femail" name="gender"><label for="femail">Female</label>
+        <br><br>
+        <p>Select the car</p>
+        <input type="checkbox" id="ma" name="mahindra"><label for="ma">Mahindra</label>
+        <br>
+        <input type="checkbox" id="od" name="mahindra"><label for="od">oddi</label>
+        <br>
+        <input type="checkbox" id="ta" name="mahindra"><label for="ta">tata</label>
+        <br><br>
+        <label for="sel">Selet your class: </label>
+        <select id="sel">
+            <optgroup label="class 1">
+                <option>section A</option>
+                <option>section B</option>
+            </optgroup>
+
+            <option>class 2</option>
+            <option disabled>class 3</option>
+            <option value="4">class 4</option>
+        </select>
+        <br><br>
+        <label for="query">please write your query: </label>
+        <textarea id="query" rows="5" cols="30"></textarea>
+        <br><br>
+        <input type="image" src="/image/a4.jpg" width="80px" class="button">
+        <br><br>
+        <input type="range" min="8" max="15">
+        <br><br>
+        <input type="reset" class="button1">
+        <input type="submit" value="login" class="button1">
+
+        
+        
+        
+    </form>
+    
+</body>
+</html>
