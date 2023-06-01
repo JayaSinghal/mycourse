@@ -12,7 +12,7 @@
             float: right;
         } */
 
-        img{
+        /* img{
             opacity: 0.9;
         }
 
@@ -24,6 +24,49 @@
         div {
             float: left;
             margin: 20px;
+        } */
+
+        h1{
+            color: aqua;
+            text-shadow: 1px 3px 3px red, 1px 1px 1px green;
+        }
+
+        /* div{
+            background-color: aqua; */
+            /* height: 100px; */
+            /* width: 200px;
+            box-shadow: 3px 3px 4px green;
+        } */ 
+
+        /* div{
+            background-color: aqua;
+            width: 200px;
+            /* transform: translate(20px,50px); */
+
+        /* } */ 
+
+        .item{
+            background-color: aqua;
+            /* width: 200px; */
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: 50px auto auto;
+            grid-template-rows: 50px auto auto;
+            gap: 10px;
+            column-gap: 10px;
+            row-gap: 10px;
+            justify-content: stretch;
+        }
+
+        div:hover{
+            /* transform: translate(20px,50px); */
+            /* transform: rotate(10deg); */
+            /* transform: scale(2,3); */
+            /* transform: rotateZ(10deg); */
         }
     </style>
 
@@ -33,14 +76,27 @@
 </head>
 
 <body>
+    <!-- <div>
+        <div><img src="/image/a2.jpg" width="200px"></div>
+        <div><img src="/image/a2.jpg" width="200px"></div>
+    </div> -->
+
+    <!-- <h1>My first Site</h1>
+
     <div>
-        <div><img src="/image/a2.jpg" width="200px"></div>
-        <div><img src="/image/a2.jpg" width="200px"></div>
+        <p>Text</p> -->
+        <!-- <img src="/image/a1.jpg" style="width: 100%;">
+    </div> -->
+
+
+    <!-- <p><img src="/image/a2.jpg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.</p> -->
+    <div class="container">
+        <div class="item" style="grid-column: 1/4;">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
     </div>
-
-
-    <!-- <p><img src="/image/a2.jpg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eaque ratione quaerat quibusdam a sunt ad? Doloribus molestias aliquam minima vero accusamus, enim, temporibus id, eos beatae quia eaque recusandae! loorem ipsum dolor sit amet consectetur adipisicing elit. Modi eveniet sit veritatis animi dolor voluptatem esse labore reiciendis, voluptatum cumque! Repellat harum, doloremque temporibus vel et quam dolores perferendis ipsa.</p>
-
 </body>
 
 </html>
